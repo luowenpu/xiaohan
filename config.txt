@@ -1,27 +1,27 @@
 {
-# ���ں�����
-# ���ں�appId
+# 公众号配置
+# 公众号appId
 "app_id": "wx49c38aff3c6ca455",
-# ���ں�appSecret
+# 公众号appSecret
 "app_secret": "a7c71ebc46ab50f888f94dfbac37355a",
-# ģ����Ϣid
+# 模板消息id
 "template_id": "K0uO_LJrqNf6bPpusDqie2J30_FDskfwD-qPTYGKEjY",
-# ���չ��ں���Ϣ��΢�źţ�����ж������Ҫ��[]����Ӣ�Ķ��ż��������["wx1", "wx2"]
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
 "user": ["o54fO6pXOeaOp-GST9bua-VMWPoc","o54fO6kSgkBH-nW3AHRk2HNqPqko"],
 
-# ��Ϣ����
-# �ͷ�����apikey
+# 信息配置
+# 和风天气apikey
 "weather_key": "62f4b4bb200346b98fbcc629c8a596e0",
-# ��������apikey
+# 天行数据apikey
 "tian_api": "7667b6a81dd1bdb8c0db414a1bd4e147",
-# ���ڵ�������Ϊʡ�����У������أ�ͬʱ֧�ֹ�����У������׶�(������п��ܻ�ȡ����pm2.5���������������ս��������)
-"region": "������",
-# ����
-"birthday1": {"name": "С��", "birthday": "2003-09-14"},
-# ��ʶ�����ӣ���ʽͬ��
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦(国外城市可能获取不到pm2.5，空气质量，今日建议等数据)
+"region": "阿城区",
+# 生日
+"birthday1": {"name": "小涵", "birthday": "1995-09-15"},
+# 认识的日子，格式同上
 "love_date": "2021-10-11",
-# ������ģ����Ϊ�գ�Ĭ�ϻ��ȡ��ɽ��ÿ�ս��
-"note_ch": "��һֱ��!",
-# ���Ӣ��
+# 金句中文，如果为空，默认会读取金山的每日金句
+"note_ch": "我一直在!",
+# 金句英文
 "note_en": "Miss you everyday!"
 }
